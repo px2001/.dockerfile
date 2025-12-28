@@ -8,7 +8,8 @@
 ```docker run -it --platform linux/amd64 -v /Users/pramitgaha/programs:/data/programs --name rocky-vm rocky-vm /bin/bash```
 
 ### run the container again
-```docker start rocky-vm
+```
+docker start rocky-vm
 docker exec -it rocky-vm /bin/bash
 ```
 
